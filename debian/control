@@ -1,0 +1,15 @@
+Source: mattb-repo
+Section: utils
+Priority: optional
+Maintainer: Matt Brown <mattb@debian.org>
+Build-Depends: debhelper-compat (= 12)
+Standards-Version: 4.5.0
+Homepage: http://web.home.mattb.net.nz/debian/
+
+Package: mattb-repo-apt-source
+Architecture: all
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: repository set-up package for mattb's private repo
+ This package is designed to be installed manually (but will then auto-update)
+ to initialize mattb's private repos (sources.list and trusted apt keys) on a
+ Debian based machine.

@@ -1,0 +1,6 @@
+mattb-repo for Debian
+
+This package has installed sources.list and apt trusted key configuration for
+mattb's private repo.
+
+ -- Matt Brown <mattb@debian.org>  Fri, 13 May 2022 11:49:06 +1200

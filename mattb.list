@@ -1,0 +1,4 @@
+deb https://web.home.mattb.net.nz/debian internal/
+deb-src https://web.home.mattb.net.nz/debian internal/
+deb https://web.home.mattb.net.nz/debian updates/
+deb-src https://web.home.mattb.net.nz/debian updates/
